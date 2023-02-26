@@ -1,0 +1,114 @@
+*{
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    border-bottom: 5px solid gray;
+}
+
+/*------------------------------------------- Secção - Sobre mim -----------------------------------------*/
+.sobreMim{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMim .apresentacao{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.sobreMim .apresentacao img{
+    height: 40vw;
+    width: 40vw;
+    border-radius: 90%;
+    padding-bottom: 20px;
+
+}
+
+.sobreMim .sobreTexto{
+    width: 40%;
+    padding-right: 50px;
+}
+
+.sobreMim .sobreTexto h1{
+    text-align: center;
+}
+
+.sobreMim .sobreTexto p{
+    font-size: 20px;
+    padding-top: 20px;
+    text-align: justify;
+}
+
+/*------------------------------------------- Secção - Skills--------------------------------------------*/
+
+.skillsTitulo{
+    padding: 3vw;
+    text-align: center;
+    overflow: hidden;   
+}
+
+.skillsPopUp{
+    display: flex;
+    flex-direction: row;
+    height: 90%;
+    justify-content: center;
+    align-items: center;
+}
+
+.fa-brands{
+    padding: 5vw;
+}
+
+/*------------------------------------------- Secção - Projetos------------------------------------------*/
+
+
+/*------------------------------------------- Secção - Contato-------------------------------------------*/
+
+
+
+/*------------------------------------------- Secção - Imagem--------------------------------------------*/
+
+/*------------------------------------------- Animacoes -------------------------------------------------*/
+
+/*Animação no nome*/
+.nomeAnimacao {
+	-webkit-animation: nomeAnimacao 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+	animation: nomeAnimacao 0.7s cubic-bezier(0.250, 0.460, 0.450, 0.940) 2s both;
+}
+
+@-webkit-keyframes nomeAnimacao {
+  0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+    }
+  100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+  }
+}
+@keyframes nomeAnimacao {
+  0% {
+        letter-spacing: 1em;
+        -webkit-filter: blur(12px);
+        filter: blur(12px);
+        opacity: 0;
+  }
+  100% {
+        -webkit-filter: blur(0px);
+        filter: blur(0px);
+        opacity: 1;
+  }
+}
