@@ -1,0 +1,22 @@
+@media screen and (max-width: 800px) {
+    .sobreMim{
+        flex-direction: column;
+        justify-content: center;
+        height: 110vh;
+    }
+
+    .sobreTexto{
+        padding-top: 30px;
+        width: 80vw;
+    }
+
+}
+
+@media screen and (min-width: 800px) {
+
+
+
+    .sobreMim .sobreTexto{
+        width: 40%;
+    }
+}
