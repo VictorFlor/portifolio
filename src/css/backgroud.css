@@ -7,17 +7,17 @@ body{
 
 @-webkit-keyframes background-color {
   0% {
-    background: #b6d7a8;
+    background: #9DC98A;
   }
   100% {
-    background: #6aa84f;
+    background: #5F9747;
   }
 }
 @keyframes background-color {
   0% {
-    background: #b6d7a8;
+    background: #9DC98A;
   }
   100% {
-    background: #6aa84f;
+    background: #5F9747;
   }
 }

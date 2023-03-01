@@ -1,9 +1,9 @@
 nav{
     width: 20px;
-    height: 30vh;
-    margin-top: 25vh;
+    height: 15rem;
+    margin-top: 35vh;
     position: fixed;
-    background-color: #000000b3;
+    background-color: #000000;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
     transition: 0.1s;
@@ -11,7 +11,7 @@ nav{
 }
   
 nav:hover{
-    width: 150px;
+    width: 11rem;
 }
   
 nav ul li{
