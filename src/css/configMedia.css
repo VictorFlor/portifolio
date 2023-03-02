@@ -2,12 +2,16 @@
     .sobreMim{
         flex-direction: column;
         justify-content: center;
-        height: 120vh;
     }
 
     .sobreTexto{
         padding-top: 30px;
-        width: 80vw;
+        margin-right: 10px;
+        margin-left: 20px;
+    }
+
+    .sobreMimIcon{
+        padding-bottom: 20px;
     }
 
 }

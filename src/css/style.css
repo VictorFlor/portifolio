@@ -3,17 +3,19 @@
     margin: 0;
     overflow-x: hidden;
     font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
 }
 
 section{
+    overflow-y: hidden;
     display: flex;
     flex-direction: column;
-    height: 100vh;
+    height: auto;
     border-bottom: 5px solid gray;
 }
 
 h1{
-    font-size: 3rem;
+    font-size: 2rem;
 }
 
 /*------------------------------------------- Secção - Sobre mim -----------------------------------------*/
@@ -101,18 +103,21 @@ h1{
 }
 
 .popUp i{
-    font-size: 7rem;
+    font-size: 5rem;
+    color: black;
 }
 
 .popUp p{
     font-weight: bold;
-    font-size: 1.3rem;
+    font-size: 1rem;
+    color: black;
 }
 /*------------------------------------------- Secção - Projetos------------------------------------------*/
 
 
 
 /*------------------------------------------- Animacoes -------------------------------------------------*/
+
 
 /*Animação no nome*/
 .nomeAnimacao {

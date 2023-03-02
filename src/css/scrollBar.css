@@ -10,11 +10,11 @@
 
 *::-webkit-scrollbar-track {
     border-radius: 13px;
-    background-color: #00000000;
+    background-color: #00000099;
 }
 
 *::-webkit-scrollbar-track:hover {
-    background-color: #00000000;
+    background-color: #00000099;
 }
 
 *::-webkit-scrollbar-track:active {
